@@ -1,0 +1,36 @@
+.profile{
+    height: 405px;
+    width: 260px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    background-color: rgb(200, 198, 195);
+}
+.nameContainer{
+display: flex;
+flex-direction: column;
+gap: 5px;
+align-items: center;
+justify-content: start;
+padding: 10px;
+}
+.imgContainer{
+    height: 65px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(103, 101, 98);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

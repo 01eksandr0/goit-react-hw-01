@@ -1,0 +1,12 @@
+.containerCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.online{
+    color: green;
+}
+.offline{
+    color: red;
+}

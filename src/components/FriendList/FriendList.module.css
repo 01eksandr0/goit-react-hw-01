@@ -1,0 +1,16 @@
+.cart{
+    height: 200px;
+    width: 100px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.list{
+    display: flex;
+    gap: 15px;
+}

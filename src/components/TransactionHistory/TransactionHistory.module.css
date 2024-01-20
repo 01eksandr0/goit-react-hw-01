@@ -1,0 +1,22 @@
+.table{
+border: 1px solid black;
+table-layout: fixed;
+width: 270px;
+ border-collapse: collapse;
+ background-color: antiquewhite;
+}
+.head{
+    background-color: rgb(33, 42, 42);
+    color: aliceblue;
+}
+.body:nth-child(2n-1){
+background-color: aqua;
+}
+.tr{
+    height: 30px;
+}
+.th{
+    border: 1px solid black;
+    text-align: center;
+   
+}

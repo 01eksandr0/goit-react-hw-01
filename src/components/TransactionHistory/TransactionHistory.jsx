@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./TransactionHistory.module.css";
 
-export const TransactionHistory = ({ transaction }) => {
+export const TransactionHistory = ({ transactions }) => {
   return (
     <div>
       <table className={style.table}>
@@ -12,17 +12,17 @@ export const TransactionHistory = ({ transaction }) => {
             <th className={style.th}>Currency</th>
           </tr>
         </thead>
-        {transaction.map((item) => {
-          return (
-            <tbody className={style.body} key={item.id}>
-              <tr className={style.tr}>
+        <tbody className={style.body}>
+          {transactions.map((item) => {
+            return (
+              <tr className={style.tr} key={item.id}>
                 <td className={style.th}>{item.type}</td>
                 <td className={style.th}>{item.amount}</td>
                 <td className={style.th}>{item.currency}</td>
               </tr>
-            </tbody>
-          );
-        })}
+            );
+          })}
+        </tbody>
       </table>
     </div>
   );
